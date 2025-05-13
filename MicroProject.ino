@@ -83,10 +83,10 @@ void garageDoor(){
   //Garage ระบบเปิดปิดประตูโรงรถแค่ขับไปใกล้ๆ
   // ส่งคลื่น
   digitalWrite(TRIG_PIN_G, LOW);
-    delayMicroseconds(2);
-    digitalWrite(TRIG_PIN_G, HIGH);
-    delayMicroseconds(10);
-    digitalWrite(TRIG_PIN_G, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN_G, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN_G, LOW);
 
   // อ่านคลื่นสะท้อน
   duration_G = pulseIn(ECHO_PIN_G, HIGH);
