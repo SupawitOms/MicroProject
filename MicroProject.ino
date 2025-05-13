@@ -8,7 +8,7 @@
 bool access = false;
 
 // LCD address at 0x27
-LiquidCrystal_I2C lcd(0x27, 16, 2);  // SDA -> PIN = A4 , SCL -> PIN = A5
+LiquidCrystal_I2C lcd(0x27, 16, 2); 
 
 // keypad
 const byte ROWS = 4; 
